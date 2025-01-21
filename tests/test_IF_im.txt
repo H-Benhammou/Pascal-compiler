@@ -10,9 +10,9 @@ read(b);
 
   if a > b then
     if a > 0 then
-      write(1)
+      write(a)
     else
-      write(2)
+      write(0)
   else
-    write(3);
+    write(b);
 end.
