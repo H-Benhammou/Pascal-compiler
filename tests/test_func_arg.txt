@@ -1,7 +1,7 @@
 program TestFuncArgs;
 
 var
-  x, y, rGlobal: Integer;
+  x, y, Result: Integer;
 
 function Sum(a, b: Integer): Integer;
 begin
@@ -12,7 +12,7 @@ begin
   read(x);
   read(y);
 
-  rGlobal := Sum(x, y);
+  Result := Sum(x, y);
 
-  write(rGlobal);
+  write(Result);
 end.
