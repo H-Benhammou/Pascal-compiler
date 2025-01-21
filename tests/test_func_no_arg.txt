@@ -1,16 +1,16 @@
-program noArgsFunct;
+program TestnoArgsFunc;
 
 var
   x, y, Result: Integer;
 
-function Multiply: Integer;
+function Sum: Integer;
 begin
-  Result := x * y;
+  Result := x + y;
 end;
 
 begin
   read(x);
   read(y);
-  Result := Multiply;
+  Result := Sum;
   write(Result);
 end.
