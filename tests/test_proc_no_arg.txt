@@ -1,16 +1,16 @@
-program SimpleProcedureExample;
+program ProcNoArgs;
 
 var
   x, y, Result: Integer;
 
-procedure Multiply;
+procedure Sum;
 begin
-  Result := x * y;
+  Result := x + y;
 end;
 
 begin
   read(x);
   read(y);
-  Multiply;
+  Sum;
   write(Result);
 end.
