@@ -1,16 +1,16 @@
 program TestRepeat;
 
 var
-  counter, sum: Integer;
+  ct, sum: Integer;
 
 begin
-  counter := 1;
+  ct := 1;
   sum := 0;
 
   repeat
-    sum := sum + counter;
-    counter := counter + 1;
-  until counter > 5;
+    sum := sum + ct;
+    ct := ct + 1;
+  until ct > 10;
 
   write(sum);
 end.
