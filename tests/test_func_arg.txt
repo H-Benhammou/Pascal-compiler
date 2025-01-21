@@ -1,18 +1,18 @@
-program TestFuncWithArgs;
+program TestFuncArgs;
 
 var
-  x, y, resGlobal: Integer;
+  x, y, rGlobal: Integer;
 
-function Multiply(a, b: Integer): Integer;
+function Sum(a, b: Integer): Integer;
 begin
-  Multiply := a * b;
+  Sum := a + b;
 end;
 
 begin
   read(x);
   read(y);
 
-  resGlobal := Multiply(x, y);
+  rGlobal := Sum(x, y);
 
-  write(resGlobal);
+  write(rGlobal);
 end.
