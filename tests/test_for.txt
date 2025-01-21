@@ -1,13 +1,13 @@
 program TestForLoop;
 
 var
-  i, sum: Integer;
+  i, prod: Integer;
 
 begin
-  sum := 0;
+  prod := 1;
 
   for i := 1 to 10 do
-    sum := sum + i;
+    prod := prod * i;
 
-  write(sum);
+  write(prod);
 end.
