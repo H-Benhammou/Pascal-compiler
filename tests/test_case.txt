@@ -4,12 +4,12 @@ var
   number: Integer;
 
 begin
-  number := 4;
+  number := 1;
 
   case number of
-    1: write(100);
-    2: write(200);
-    3: write(300);
+    1: write(1);
+    2: write(2);
+    3: write(3);
   else
     write(0);
   end;
